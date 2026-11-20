@@ -7,6 +7,35 @@
   "topLevel": true,
   "allAtoms": [
     {
+      "atomType": "Extrude",
+      "x": 0.6184,
+      "y": 0.6918,
+      "uniqueID": "id-15",
+      "ioValues": [
+        {
+          "name": "geometry",
+          "ioValue": "__GEOMETRY_INPUT__"
+        },
+        {
+          "name": "height",
+          "ioValue": 10
+        }
+      ]
+    },
+    {
+      "atomType": "Color",
+      "x": 0.7184,
+      "y": 0.6918,
+      "uniqueID": "id-19",
+      "ioValues": [
+        {
+          "name": "geometry",
+          "ioValue": "__GEOMETRY_INPUT__"
+        }
+      ],
+      "selectedColor": "Orange"
+    },
+    {
       "atomType": "Output",
       "x": 0.98,
       "y": 0.5,
@@ -19,20 +48,52 @@
       ]
     },
     {
+      "atomType": "Extrude",
+      "x": 0.4465,
+      "y": 0.31,
+      "uniqueID": "id-33",
+      "ioValues": [
+        {
+          "name": "geometry",
+          "ioValue": "__GEOMETRY_INPUT__"
+        },
+        {
+          "name": "height",
+          "ioValue": -10,
+          "currentEquation": "-10"
+        }
+      ]
+    },
+    {
       "atomType": "Circle",
-      "x": 0.5066,
-      "y": 0.7741,
+      "x": 0.5207,
+      "y": 0.7793,
       "uniqueID": "id-4",
       "ioValues": [
         {
           "name": "diameter",
-          "ioValue": 15,
-          "currentEquation": "15"
+          "ioValue": 10
         }
       ]
     }
   ],
-  "allConnectors": [],
+  "allConnectors": [
+    {
+      "ap2Name": "geometry",
+      "ap1ID": "id-15",
+      "ap2ID": "id-19"
+    },
+    {
+      "ap2Name": "geometry",
+      "ap1ID": "id-4",
+      "ap2ID": "id-15"
+    },
+    {
+      "ap2Name": "geometry",
+      "ap1ID": "id-4",
+      "ap2ID": "id-33"
+    }
+  ],
   "unitsKey": "MM",
   "fileTypeVersion": 1,
   "filetypeVersion": 1
