@@ -48,23 +48,6 @@
       ]
     },
     {
-      "atomType": "Extrude",
-      "x": 0.4465,
-      "y": 0.31,
-      "uniqueID": "id-33",
-      "ioValues": [
-        {
-          "name": "geometry",
-          "ioValue": "__GEOMETRY_INPUT__"
-        },
-        {
-          "name": "height",
-          "ioValue": -10,
-          "currentEquation": "-10"
-        }
-      ]
-    },
-    {
       "atomType": "Circle",
       "x": 0.5207,
       "y": 0.7793,
@@ -87,11 +70,6 @@
       "ap2Name": "geometry",
       "ap1ID": "id-4",
       "ap2ID": "id-15"
-    },
-    {
-      "ap2Name": "geometry",
-      "ap1ID": "id-4",
-      "ap2ID": "id-33"
     }
   ],
   "unitsKey": "MM",
