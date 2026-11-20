@@ -8,8 +8,8 @@
   "allAtoms": [
     {
       "atomType": "Extrude",
-      "x": 0.6184,
-      "y": 0.6918,
+      "x": 0.616,
+      "y": 0.725,
       "uniqueID": "id-15",
       "ioValues": [
         {
@@ -24,8 +24,8 @@
     },
     {
       "atomType": "Color",
-      "x": 0.7184,
-      "y": 0.6918,
+      "x": 0.7188,
+      "y": 0.6935,
       "uniqueID": "id-19",
       "ioValues": [
         {
